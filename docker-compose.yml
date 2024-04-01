@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  netflix-app:
+    image: nirav1611/netflix:latest
+    ports:
+      - "30007:80"
+    deploy:
+      replicas: 2
